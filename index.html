@@ -7,11 +7,11 @@
 <body>
 	<h1>My Projects</h1>
 	    <div>
-	    <button id="project1">Project 1</button>
+	    <button id="project1" onclick="window.location.href='https://github.com/jeremiahejensen04/Module-1-Challenge'">Project 1</button>
 	    <button id="project2">Project 2</button>
 	    <button id="project3">Project 3</button>
 </div>
-<script>
+<script class="projects">
 	const project1 = "This is information about Project 1.";
 	const project2 = "This is information about Project 2.";
 	const project3 = "This is information about Project 3.";
@@ -28,7 +28,9 @@
 		document.getElementById("project-info").innerHTML = project3;
 	});
 </script>
-<div id="project-info"></div>
+<div id="project-info">
+	<p>Welcome to my website! Here you can read about my various projects</p>
+</div>
 
 </body>
 </html>
